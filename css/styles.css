@@ -1,0 +1,132 @@
+/* General Styles  */
+:root {
+  /* --black: #222222;
+  --white: #ffffff;
+  --light-blue: #1c5d99;
+  --light-green: #639fab;
+  --grey: #bbcde5; */
+  --primary: #ba181b;
+  --secondary: #161a1d;
+  --grey: #d3d3d3;
+  --white: #ffffff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+img picture svg video {
+  display: block;
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main styles  */
+/* nav start  */
+.nav-list {
+  display: flex;
+  background-color: var(--secondary);
+  color: var(--secondary);
+}
+
+.nav-link {
+  display: block;
+  margin: 12px;
+  padding: 12px 24px;
+  background-color: var(--grey);
+  border-radius: 40px;
+}
+.link-active {
+  background-color: var(--primary);
+}
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+/* nav end  */
+/* hero start  */
+.hero {
+  min-height: 85vh;
+  background-color: var(--secondary);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1 {
+  font-size: 64px;
+}
+button {
+  display: block;
+  border-radius: 50px;
+  margin: 16px auto;
+  padding: 16px 24px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+button:hover {
+  background-color: var(--primary);
+}
+/* hero end  */
+/* main start  */
+.main-section {
+  min-height: 70vh;
+  text-align: center;
+  background-color: var(--grey);
+  color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid var(--white);
+}
+.main-section .content {
+  max-width: 60%;
+}
+.main-section h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.main-section p {
+  font-size: 24px;
+}
+.section-active {
+  background-color: hsl(0, 0%, 50%);
+}
+
+/* main end */
+/* footer start  */
+footer {
+  min-height: 15vh;
+  background-color: var(--secondary);
+  color: var(--grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer h2 {
+  margin-top: 16px;
+}
+/* footer end  */
