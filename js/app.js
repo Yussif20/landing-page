@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////
 /// Define Global Variables ///
 
-let sectionNumber = 1;
+let sectionNumber = 5;
 let navList = document.querySelector(`.nav-list`);
 let navbar = document.querySelector(`.nav-bar`);
 let sticky = navbar.offsetTop;
@@ -92,11 +92,6 @@ const goToTop = () => {
 ///////////////////////////////////////
 ///////////////////////////////
 /////////////////////////
-
-addNewSection();
-addNewSection();
-addNewSection();
-addNewSection();
 
 document.querySelector(".add-btn").addEventListener(`click`, addNewSection);
 document.getElementById(`top`).addEventListener(`click`, goToTop);
