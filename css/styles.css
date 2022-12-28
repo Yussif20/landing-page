@@ -48,14 +48,15 @@ a {
 
 .nav-list {
   display: flex;
+  flex-wrap: wrap;
   background-color: var(--secondary);
   color: var(--secondary);
 }
 
 .nav-link {
   display: block;
-  margin: 12px;
-  padding: 12px 24px;
+  margin: 8px;
+  padding: 8px 16px;
   background-color: var(--grey);
   border-radius: 40px;
 }
