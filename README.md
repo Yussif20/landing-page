@@ -1,11 +1,23 @@
-#Landing Page Project
+# Landing Page Project
 
--This is a very simple landing page to practice on what I have learned so far about DOM and how to manipulate it in the professional front end development course on Udacity.
+## Description:
 
--You can use the add new section button to add as much sections as you want and you can also use the navigation bar to navigate through page to the section you want and when reaching the bottom of the page there is go to top button to take you back to the top.
+A simple landing page to practice on what I have learned so far about DOM and how to manipulate it in the professional front end development course on Udacity.
 
--Made using html,CSS and JavaScript.
+## Instructions:
 
--Done by Yousef Ayman.
+Use the add new section button to add as much sections as you want.
+Use the navigation bar to navigate through page to the section you want.
+There is go to top button at the bottom to take you back to the top.
 
--Thanks for Udacity team to provide this amazing course.
+## Technologies used:
+
+html,CSS and JavaScript.
+
+## author's name:
+
+Done by Yousef Ayman.
+
+## credits:
+
+Thanks for Udacity team to provide this amazing course.
